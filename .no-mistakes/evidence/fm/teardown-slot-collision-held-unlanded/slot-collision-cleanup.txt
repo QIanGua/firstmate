@@ -1,0 +1,21 @@
+$ fm-teardown.sh stale-task
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  2 task(s) in flight, but no watcher has a fresh beacon (last beat: never, grace 300s).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  repair missing watcher supervision with a foreground checkpoint: bin/fm-watch-checkpoint.sh --seconds 180.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+warning: task stale-task's recorded worktree /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/pool/1/project was reassigned to task reassigned-task (home /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/other-home), which claimed that pool slot after this record was written; that slot is no longer stale-task's, so its processes, copy, and claim are left untouched and only stale-task's own cleanup runs.
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+/private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/project: skipped: no origin remote
+teardown stale-task complete (window firstmate:fm-stale-task; pool slot /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/worktree left to task reassigned-task (home /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/other-home), which it was reassigned to)
+Backlog: stale-task just finished (this home keeps no markdown backlog at /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/home/data/backlog.md). Update /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-teardown-endpoint-safety.HSGzET/slot-reassigned-clean/home/data/backlog.md - move stale-task to Done, keep Done to the 10 most recent, then re-scan Queued and dispatch only work whose blockers are gone and date is due.
+finished record removed: yes
+claimant record retained: yes
+claimant process alive: yes
+claimant checkout HEAD unchanged: yes
+claimant unlanded work retained: yes
+claimant checkout clean: yes
+claimant slot claim: task=reassigned-task
+treehouse return invoked: no
