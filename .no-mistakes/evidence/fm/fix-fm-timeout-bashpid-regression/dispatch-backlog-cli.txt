@@ -1,0 +1,23 @@
+$ bin/fm-spawn.sh evidence-dispatch-bash32 <fixture-project> --mode no-mistakes --yolo off
+warning: /private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-backlog-atomicity.jO0xUC/evidence-dispatch-bash32/home/data/evidence-dispatch-bash32/launch-brief.md records no ship branch; defaulting to legacy branch fm/evidence-dispatch-bash32
+spawned evidence-dispatch-bash32 harness=claude kind=ship mode=no-mistakes yolo=off window=firstmate:fm-evidence-dispatch-bash32 worktree=/private/var/folders/ky/sdncl1hx1b3g7yntpg095s880000gn/T/fm-backlog-atomicity.jO0xUC/evidence-dispatch-bash32/wt
+$ tasks-axi show evidence-dispatch-bash32 --file <fixture-backlog>
+task:
+  id: evidence-dispatch-bash32
+  title: item for evidence-dispatch-bash32
+  state: in_flight
+  blocked: no
+  blocked_by: none
+  held: no
+  hold_reason: "-"
+  hold_kind: "-"
+  hold_until: "-"
+  kind: ship
+  repo: "-"
+  priority: "-"
+  created: 2026-09-28
+  closed: "-"
+  deps: none
+  links: none
+  body: ""
+task_record=present

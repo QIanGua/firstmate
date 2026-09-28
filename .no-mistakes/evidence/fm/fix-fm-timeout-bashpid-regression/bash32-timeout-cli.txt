@@ -1,0 +1,7 @@
+GNU bash, version 3.2.57(1)-release (arm64-apple-darwin25)
+$ base helper: set -u; fm_exec_timed 5 1 /bin/echo bounded-command-ran
+/bin/bash: line 223: BASHPID: unbound variable
+exit=127
+$ changed helper: set -u; fm_exec_timed 5 1 /bin/echo bounded-command-ran
+bounded-command-ran
+exit=0
